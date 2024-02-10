@@ -1,0 +1,13 @@
+@use"./br-colors.scss";
+
+.div1 {
+
+    width: 300px;
+    height: 150px;
+    background-attachment:bg-colors.colorsDiv();
+}
+ 
+.div1 {
+    @include bg-colors.createDivs();
+    background-color: bg-colors.colorsDiv();
+}
